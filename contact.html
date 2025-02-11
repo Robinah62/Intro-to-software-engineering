@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/contact.css">
+    <div>
+        <header>
+            <img src="./Images/nexus.jpg" width="20px">
+            <nav>
+                <a href="home.html">Home</a>
+                <a href="about.html">About</a>
+
+            </nav>
+        </header>
+    </div>
+    <style>
+        .background-div {
+            width: 800px;
+            height: 450px;
+            background-image: url(./Images/home4.jpg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+
+        }
+
+        body {
+            background-color: bisque;
+        }
+    </style>
+  </head>
+
+   <body>
+    <section>
+        <div class="background-div">
+            <p id="c"> contact us</p><br><br>
+            <p id="if">If you would like to learn more about how we can help make your dream home into reality, <br>we
+                can't wait to hear from you
+            </p>
+
+        </div>
+    </section>
+    <!--adding the image on the left and the form on the right-->
+    <section>
+        <div class="container">
+            <div class="image-container">
+                <img src="./Images/g4.jpg" alt="Image">
+            </div>
+            <div class="form-container">
+                <h2>for any information, please fill this form</h2>
+                <form>
+                    <label for="name">Your name*</label><br>
+                    <input type="text" placeholder="Your Name" required>
+                    <label for="email">Your email*</label><br>
+                    <input type="email" placeholder="Your Email" required>
+                    <label for="phone">Phone*</label><br>
+                    <input type="number" placeholder="+256" required>
+                    <label for="subject">Subject</label><br>
+                    <input type="text" required>
+                    <label for="message">Your message</label>
+                    <input type="text" placeholder="enter your message">
+                    <button type="submit">SEND</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
